@@ -1,0 +1,13 @@
+{
+  "name": "cf-kv-url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener running on Cloudflare Workers and Cloudflare KV",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.50.0"
+  }
+}
